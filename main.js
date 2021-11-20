@@ -23,6 +23,13 @@ posenet.on('pose', gotPoses);
 
 function draw() {
 image(video, 0, 0, 600, 500);
+song1_status = song1.isplaying();
+song2_status = song2.isplaying();
+fill("red");
+stroke("yellow")
+if(scorLeftWrist >0.2) {
+
+}
 }
 
 function play() {
